@@ -1,0 +1,8 @@
+{
+  "name": "DEW JavaScript",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "node",
+  "workspaceFolder": "/app",
+  "overrideCommand": true,
+  "shutdownAction": "stopCompose"
+}

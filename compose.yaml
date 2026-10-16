@@ -1,0 +1,9 @@
+services:
+  node:
+    build: .
+    working_dir: /app
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    command: ["node"]
